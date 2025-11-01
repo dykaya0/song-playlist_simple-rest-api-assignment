@@ -42,7 +42,7 @@ You can **add**, **remove**, **list**, and **clear** songs — no database requi
 
 ## ⚠️ Data Persistence Limitation Notice
 
-This API uses **in-memory data** only.  
+This API uses **in-memory data** only  
 All playlist data (songs added or removed) is stored temporarily inside a variable in the serverless runtime.
 
 When deployed on **Vercel**, each API route runs inside a **stateless serverless function**.  
